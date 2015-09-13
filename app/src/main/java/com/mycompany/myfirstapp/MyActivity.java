@@ -37,6 +37,15 @@ public class MyActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void viewAndroid(View view2) {
+
+        //Do something in response to button
+        Intent intent = new Intent(this, DisplayAndroidActivity.class);
+        startActivity(intent);
+    }
+
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
